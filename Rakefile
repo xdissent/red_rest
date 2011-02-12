@@ -1,8 +1,3 @@
-task :default => [:test]
-
-task :test do
-    print 'testing'
-end
 
 task :develop do
     sh "git clone git://github.com/edavis10/redmine.git develop"
